@@ -9,25 +9,97 @@
 
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Catamaran:200,300,400,500,600,800" rel="stylesheet">
 	</head>
 	<body>
 		<div class="site-container">
-			<header class="site-header">
-				<h1>Glowble</h1>
-				<a> About </a>
-				<a> Sign up </a>
-				<a> Pedro is messing with my code </a>
+			<header class="site-header clearfix">
+				<h1><a href="#">Glowble.</a></h1>
+				<nav class="site-nav">
+					<div class="nav-icon">
+						<!-- <img class="burger" src="images/burger1.png"> -->
+					</div>
+						<div class="menu">
+							<ul>
+								<li><a href="#"> About </a></li>
+								<li><a href="#"> Sign up for beta </a></li>
+							</ul>
+						</div>
+				</nav>
 			</header>
 
 			<main class="site-content">
 
+			<div class="carousel">
+    			<div class="carousel-inner">
+       				
+       				 <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked">
+        			 <div class="carousel-item">
+            			<div class="hero-box clearfix"> 
+							<h1>Leveling the playing field.</h1>
+							<p><a>GLOWBLE.</a> is the place for bright talent to get noticed by professional sports clubs.</p>
+						</div>
+        			</div>
+        
+        			<input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="">
+        			<div class="carousel-item">
+           				<div class="hero-box clearfix"> 
+							<h1>Coming soon...</h1>
+							<p>The full site is under construction. Sign up to our mailing list to be among the first to get notified when we're up and running.</p>
+							<button class="sign-up-button">Sign up</button>
+						</div>
+        			</div>
+	
+        			<label for="carousel-2" class="carousel-control next control-1">›</label>
+        			<label for="carousel-1" class="carousel-control prev control-2">‹</label>
+        			<label for="carousel-2" class="carousel-control prev control-3">‹</label>
+        			<label for="carousel-1" class="carousel-control next control-3">›</label>
+        			
+        			<ol class="carousel-indicators">
+            			<li>
+            	    		<label for="carousel-1" class="carousel-bullet">•</label>
+            			</li>
+            	
+            			<li>
+            	    		<label for="carousel-2" class="carousel-bullet">•</label>
+            			</li>
+        			</ol>
+   				</div>
+			</div>
+
+					<div class="create-profile right-row clearfix">
+						<img src="images/edit_icon.png">
+						<h1>Create a Profile</h1>
+						<p>Show off your achievements and skills.</p>
+						<button class="row-button">Check it out</button>
+					</div>
+
+		
+					<div class="choose-sport left-row clearfix">
+						<img src="images/emoticons_icon.png">
+						<h1>Choose your sport</h1>
+						<p>Get involved and meet other sport lovers.</p>
+						<button class="row-button">Check it out</button>
+					</div>
+								
+		
+					<div class="connect-clubs right-row clearfix">
+						<img src="images/groups_icon.png">
+						<h1>Connect with team scouts</h1>
+						<p>Make important connections and get noticed.</p>
+						<button class="row-button">Check it out</button>
+					</div>
+
+					<div class="content-row left-row contact-us">
+						<h1> Contact Us </h1>
+					</div>
+
 			</main>
 
-			<footer class="site-footer">
-				&copy; 2016
+			<footer class="site-footer clearfix">
+				<h1><a href="#">Glowble. &copy; 2016</a></h1>
 			</footer>
-		</div><!-- .site-container -->
-		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	</div><!-- .site-container -->
 		<script src="js/main.js"></script>
 	</body>
 </html>
